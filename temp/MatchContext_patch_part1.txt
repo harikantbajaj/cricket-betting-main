@@ -1,0 +1,19 @@
+// Restore overs and balls increment logic
+              let [overs, balls] = currentScore.overs.toString().split('.').map(num => parseInt(num || '0', 10));
+              if (balls === 5) {
+                currentScore.overs = overs + 1;
+                currentScore.balls = 0; // reset balls after 6 balls (0-5)
+              } else {
+                currentScore.overs = parseFloat(`${overs}.${balls + 1}`);
+              }
+=======
+              // Increment balls and overs properly
+              let overs = Math.floor(currentScore.overs);
+              let balls = Math.round((currentScore.overs - overs) * 10);
+
+              balls += 1;
+              if (balls === 6) {
+                overs += 1;
+                balls = 0;
+              }
+              currentScore.overs = overs + balls / 10;

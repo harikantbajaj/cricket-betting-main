@@ -8,6 +8,7 @@ import { AIPredictions } from './components/AIPredictions';
 import { AIChat } from './components/AIChat';
 import { Auth } from './components/Auth';
 import { Payment } from './components/Payment';
+import { PortfolioPage } from './components/PortfolioPage';
 
 function App() {
   const [activeTab, setActiveTab] = useState('dashboard');
@@ -27,6 +28,8 @@ function App() {
         return <AIPredictions />;
       case 'chat':
         return <AIChat />;
+      case 'portfolio':
+        return <PortfolioPage />;
       default:
         return <Dashboard />;
     }

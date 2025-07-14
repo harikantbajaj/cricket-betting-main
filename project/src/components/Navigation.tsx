@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home, TrendingUp, Trophy, MessageCircle, Brain } from 'lucide-react';
+import { Home, TrendingUp, Trophy, MessageCircle, Brain, PieChart } from 'lucide-react';
 
 interface NavigationProps {
   activeTab: string;
@@ -13,6 +13,7 @@ export const Navigation: React.FC<NavigationProps> = ({ activeTab, onTabChange }
     { id: 'leaderboard', label: 'Leaderboard', icon: Trophy },
     { id: 'predictions', label: 'AI Predictions', icon: Brain },
     { id: 'chat', label: 'AI Assistant', icon: MessageCircle },
+    { id: 'portfolio', label: 'Portfolio', icon: PieChart },
   ];
 
   return (

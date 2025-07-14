@@ -5,6 +5,7 @@ import { LiveMatch } from './LiveMatch';
 import { useUser } from '../context/UserContext';
 import { useMatches } from '../context/MatchContext';
 import { usePortfolio } from '../context/PortfolioContext';
+import { PortfolioSection } from './PortfolioSection';
 
 export const Dashboard: React.FC = () => {
   const { user } = useUser();

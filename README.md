@@ -1,43 +1,43 @@
-🏏 AI-Powered Cricket Betting & Trading Platform
-A next-generation AI-powered cricket trading platform designed to revolutionize fan interaction with live matches. This platform enables users to buy and sell team shares in real-time, manage dynamic portfolios, and make data-driven trading decisions using advanced AI predictions.
+# 🏏 AI-Powered Fantasy Sports Trading Platform
 
-🚀 Live Project
-👉 Explore the Live Platform
+An advanced **AI-powered cricket betting and trading platform** designed to redefine how fans interact with live cricket matches. This platform transforms cricket engagement by combining real-time analytics, intelligent predictions, and dynamic trading functionalities — allowing users to **buy and trade shares in live matches**, manage real-time portfolios, and monitor profits and losses live.
 
-📂 Source Code
-👉 GitHub Repository
+## 🚀 Features
 
-🎯 Key Features
-📊 Live Interactive Dashboard — Real-time match tracking and analytics.
+- 🎯 **Interactive Live Dashboard**: Real-time match insights and dynamic trading data.
+- 🤖 **AI Prediction Engine**: Smart, data-driven guidance for betting and trading strategies.
+- 💬 **Community Chat System**: Live discussions and collaborative decision-making.
+- 🏆 **Competitive Leaderboard**: Drives user engagement and healthy competition.
+- 💳 **Secure Payment Integration**: Fast and secure deposits, withdrawals, and in-app transactions.
+- ⚛️ **Modern Tech Stack**: Built using React, TypeScript, and modern web standards.
 
-🤖 AI-Driven Predictions — Intelligent insights for informed trading.
+## 📷 Live Demo
 
-💬 Community Chat — Engage with other users during matches.
+[🔗 Explore the Live Platform](https://cricket-eight-iota.vercel.app/)
 
-🏆 Competitive Leaderboard — Track and compete with other traders.
+## 💻 Source Code
 
-💳 Secure Payment Integration — Manage funds with ease.
+[🔗 Access the Source Code](https://github.com/harikantbajaj)
 
-⚙️ Portfolio Management — Track investments, profits, and losses dynamically.
+## 📦 Tech Stack
 
-💻 Tech Stack
-Frontend: React.js, TypeScript
+- **Frontend**: React, TypeScript
+- **Backend**: Node.js / Express (Assumed)
+- **AI/ML**: Custom prediction models (details in `/ai-engine`)
+- **Database**: MongoDB / SQL (Assumed)
+- **Payments**: Secure API integrations
 
-State Management: Redux Toolkit
+## 🛠️ Installation
 
-Payment Gateway: Razorpay / Stripe Integration (optional)
+```bash
+# Clone the repository
+git clone https://github.com/your-username/project-repo-name.git
 
-Backend APIs: [Future Implementation]
+# Navigate to project directory
+cd project-repo-name
 
-Hosting: Vercel
-
-📦 Installation
-bash
-Copy
-Edit
-git clone https://github.com/harikantbajaj/cricket-trading-platform.git
-cd cricket-trading-platform
+# Install dependencies
 npm install
+
+# Start the development server
 npm start
-📸 Screenshots
-<img width="1859" height="918" alt="Screenshot 2025-07-15 162122" src="https://github.com/user-attachments/assets/30f68bac-9038-4a4e-bffc-e0c3a3c328e9" />
